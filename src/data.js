@@ -2,7 +2,10 @@ import { Code, Database, Terminal, Globe, Server } from 'lucide-react';
 
 import policyWebsiteImg from './assets/policy_pilot_website.png';
 import policyAppImg from './assets/policy_pilot_app.png';
-import eventSystemImg from './assets/event_management.png';
+import eventSystemImg from './assets/User_dashboard.png';
+import techStoreImg from './assets/tech-store.png';
+import crmImg from './assets/CRM.png';
+import eTutorImg from './assets/E-tutor.png';
 
 export const profileData = {
   name: "MD Monir Hossain",
@@ -86,7 +89,7 @@ export const projects = [
     tags: ["Backend", "API Integration"],
     description: "Handled backend development and API integration to the frontend.",
     date: "2024",
-    image: eventSystemImg, // Placeholder
+    image: techStoreImg,
     gitLink: "https://github.com/thenexgenix/tech-store/tree/monir",
     liveLink: "https://tech-store.thenexgenix.com/"
   },
@@ -95,7 +98,7 @@ export const projects = [
     tags: ["API Integration"],
     description: "Implemented seamless API integration to the frontend.",
     date: "2024",
-    image: policyAppImg, // Placeholder
+    image: crmImg,
     gitLink: "https://github.com/thenexgenix/CRM-workshop/tree/monir",
     liveLink: "https://crm.thenexgenix.com/"
   },
@@ -104,7 +107,7 @@ export const projects = [
     tags: ["API Integration"],
     description: " focused on API integration to the frontend for a smooth user experience.",
     date: "2024",
-    image: policyWebsiteImg, // Placeholder
+    image: eTutorImg,
     gitLink: "https://github.com/thenexgenix/etutor/tree/monir",
     liveLink: "https://etutor-navy.vercel.app/"
   },

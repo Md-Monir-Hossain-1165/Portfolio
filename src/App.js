@@ -55,9 +55,10 @@ function App() {
             {/* Main Content Sections */}
             <main className="space-y-12">
               <Hero />
-              <Services />
               <Education />
               <Experience />
+              <Services />
+
               <Skills />
               <Projects />
 

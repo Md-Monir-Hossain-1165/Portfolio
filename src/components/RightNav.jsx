@@ -4,9 +4,9 @@ import Magnetic from './Magnetic';
 
 const navItems = [
   { icon: <Home size={20} />, id: "home" },
-  { icon: <Zap size={20} />, id: "services" },
   { icon: <GraduationCap size={20} />, id: "education" },
   { icon: <Briefcase size={20} />, id: "experience" },
+  { icon: <Zap size={20} />, id: "services" },
   { icon: <Layers size={20} />, id: "skills" },
   { icon: <Briefcase size={20} />, id: "projects" },
   { icon: <Mail size={20} />, id: "contact" },
