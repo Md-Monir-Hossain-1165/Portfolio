@@ -1,8 +1,7 @@
 import { Code, Database, Terminal, Globe, Server } from 'lucide-react';
 
-import policyWebsiteImg from './assets/policy_pilot_website.png';
-import policyAppImg from './assets/policy_pilot_app.png';
-import eventSystemImg from './assets/User_dashboard.png';
+
+import eventSystemImg from './assets/Event.png';
 import techStoreImg from './assets/tech-store.png';
 import crmImg from './assets/CRM.png';
 import eTutorImg from './assets/E-tutor.png';
