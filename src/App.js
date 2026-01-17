@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { motion, useScroll, useSpring, useTransform } from 'framer-motion';
 import ProfileCard from './components/ProfileCard';
 import RightNav from './components/RightNav';

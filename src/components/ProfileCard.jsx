@@ -3,7 +3,8 @@ import { Mail, MapPin, Github, Linkedin, MessageCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 import profileImg from '../assets/profile.jpg';
 import { profileData } from '../data';
-import Magnetic from './Magnetic';
+
+
 
 const ProfileCard = () => {
   return (

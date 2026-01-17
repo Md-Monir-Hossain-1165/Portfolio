@@ -1,4 +1,4 @@
-import { Code, Smartphone, Database, Terminal, Monitor, Globe, Server } from 'lucide-react';
+import { Code, Database, Terminal, Monitor, Globe, Server } from 'lucide-react';
 
 import policyWebsiteImg from './assets/policy_pilot_website.png';
 import policyAppImg from './assets/policy_pilot_app.png';

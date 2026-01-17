@@ -1,19 +1,19 @@
 import React, { useState, useEffect } from 'react';
-import { Home, Layers, Briefcase, Mail, User, GraduationCap, Zap } from 'lucide-react';
+import { Home, Layers, Briefcase, Mail, GraduationCap, Zap } from 'lucide-react';
 import Magnetic from './Magnetic';
+
+const navItems = [
+  { icon: <Home size={20} />, id: "home" },
+  { icon: <Zap size={20} />, id: "services" },
+  { icon: <GraduationCap size={20} />, id: "education" },
+  { icon: <Briefcase size={20} />, id: "experience" },
+  { icon: <Layers size={20} />, id: "skills" },
+  { icon: <Briefcase size={20} />, id: "projects" },
+  { icon: <Mail size={20} />, id: "contact" },
+];
 
 const RightNav = () => {
   const [activeSection, setActiveSection] = useState('home');
-
-  const navItems = [
-    { icon: <Home size={20} />, id: "home" },
-    { icon: <Zap size={20} />, id: "services" },
-    { icon: <GraduationCap size={20} />, id: "education" },
-    { icon: <Briefcase size={20} />, id: "experience" },
-    { icon: <Layers size={20} />, id: "skills" },
-    { icon: <Briefcase size={20} />, id: "projects" },
-    { icon: <Mail size={20} />, id: "contact" },
-  ];
 
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
