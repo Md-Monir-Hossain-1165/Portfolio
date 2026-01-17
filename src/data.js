@@ -40,9 +40,14 @@ export const skills = [
 
 export const services = [
   {
-    title: "Full Stack Development",
-    icon: <Monitor size={24} />,
-    description: "Building comprehensive web applications from concept to deployment."
+    title: "Frontend Development",
+    icon: <Code size={24} />,
+    description: "Crafting responsive and interactive user interfaces using modern web technologies."
+  },
+  {
+    title: "Backend Development",
+    icon: <Terminal size={24} />,
+    description: "Building robust server-side logic, secure APIs, and efficient database architectures."
   },
   {
     title: "API Integration",
